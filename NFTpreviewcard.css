@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.image-1 {
+    width: 240px;
+    height: 240px;
+    border-radius: 9px;
+    margin-bottom: 15px;
+    margin-left: 4px;
+}
+
+.image-1:hover img {
+    background-color: hsl(178, 100%, 50%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+
+.wrapper {
+    background-color: hsl(216, 50%, 16%);
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, p, h3 {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+hr {
+    margin-bottom: 20px; 
+    height: 1px;
+    background-color: hsl(215, 20%, 49%);
+    border: none;
+}
+
+h3 {
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    font-size: 14px;
+    color: hsl(215, 20%, 49%);
+}
+
+.numbers-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.days-left {
+    color: hsl(215, 20%, 49%);
+}
+
+.footer {
+    display: flex;
+    gap:3px;
+}
+
+.white-color {
+    color: white;
+}
+
+.white-color:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+.creator-image {
+    width: 22px;
+    float: left;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 10px
+    
+}
+
+h3 > i {
+    margin-right: 7px;
+    float: left;
+}
+
+@media (max-width:500px) {
+    body {
+        width: 375px;
+    }
+
+}

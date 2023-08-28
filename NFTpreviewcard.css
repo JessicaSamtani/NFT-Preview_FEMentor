@@ -12,13 +12,37 @@ body {
     cursor: pointer;
 }
 
-.image-1 {
+/* .image-1 {
     width: 240px;
     height: 240px;
-    border-radius: 9px;
+    /* border-radius: 9px;
     margin-bottom: 15px;
-    margin-left: 4px;
+    margin-left: 4px; */
+/* }  */
+
+.highlight-header {
+   width: 240px;
+   height: 240px;
+   margin-left: 4px;
+   background-image: url("images/image-equilibrium.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 9px;
+   margin-bottom: 15px;
+   background-color: antiquewhite;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+.view-icon {
+    display: none;
+}
+
+.view-icon:hover {
+    display: block;
+}
+
 
 .image-1:hover img {
     background-color: hsl(178, 100%, 50%);
